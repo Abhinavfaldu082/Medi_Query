@@ -1,0 +1,12 @@
+fastapi==0.109.2 
+uvicorn[standard]==0.27.1 
+transformers==4.38.2 
+sentence-transformers==2.6.1
+torch==2.2.1 
+openai-whisper==20231117 
+easyocr==1.7.1
+faiss-cpu==1.8.0 
+rank_bm25==0.2.2
+reportlab==4.1.0
+pydantic BaseModel 
+python-dotenv

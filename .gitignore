@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.env
+*.env.*
+
+
+# FastAPI / Uvicorn
+.uvicorn.log
+
+# Data files - DECIDE ON THESE
+# If health_topics.index and processed_health_topics.json are too large for Git:
+# backend/data/medlineplus/health_topics.index
+# backend/data/medlineplus/processed_health_topics.json
+# backend/data/medlineplus/mplus_topics_*.xml 
+# (Consider Git LFS for these if they are essential and large, or provide download instructions)
+
+# EasyOCR model cache (usually in user's home directory, not project, but good to note)
+# ~/.EasyOCR/
+
+# Hugging Face model cache (usually in user's home directory)
+# ~/.cache/huggingface/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp.*
+frontend/.DS_Store
+
+# IDE / OS files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
